@@ -8,6 +8,7 @@ from io import StringIO
 from discord.ext import commands
 from sympy import sympify
 
+os.environ["PORT"] = "8080"
 # Load token from environment variable
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 intents = discord.Intents.default()
